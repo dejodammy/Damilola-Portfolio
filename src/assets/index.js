@@ -20,6 +20,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import solidity from "./tech/solidity.png";
+import java from "./tech/java.png";
+import AWS from "./tech/AWS.png";
+import Python from "./tech/Python.png";
+import MySql from "./tech/MySql.png";
+import terraform from "./tech/terraform.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,8 +37,18 @@ import uridium from "./company/uridium.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import POS from "./POS.png";
+import MarketingWebsite from "./MarketingWebsite.png";
 
 export {
+  terraform,
+  MarketingWebsite,
+  POS,
+  MySql,
+  Python,
+  AWS,
+  java,
+  solidity,
   uridium,
   logo,
   backend,

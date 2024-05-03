@@ -1,4 +1,10 @@
 import {
+  terraform,
+  MarketingWebsite,
+  POS,
+  java,
+  AWS,
+  solidity,
   mobile,
   backend,
   creator,
@@ -11,6 +17,7 @@ import {
   redux,
   tailwind,
   nodejs,
+  MySql,
   mongodb,
   git,
   figma,
@@ -24,6 +31,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  Python,
 } from "../assets";
 
 export const navLinks = [
@@ -74,7 +82,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "typescript",
     icon: typescript,
   },
   {
@@ -82,37 +90,38 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Terraform",
+    icon: terraform,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "AWS",
+    icon: AWS,
+  },
+  {
+    name: "Python",
+    icon: Python,
+  },
+  {
+    name: "Mysql",
+    icon: MySql,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
+  
 ];
 
 const experiences = [
@@ -161,30 +170,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "POS System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Point Of Sale System for supermarkets. The system allows users to place orders, manage inventory, and generate sales reports. The system is designed to be user-friendly and easy to use. Auto saves and backup data to ensure data integrity.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySql",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: POS,
+    source_code_link: "https://github.com/dejodammy/POS",
   },
+  
   {
-    name: "Job IT",
+    name: "Marketing Solution website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Website for Peach Strides and Pristines marketing solutions agency. The website is designed to be user-friendly and easy to use. With The intention of driving attention ",
     tags: [
       {
         name: "react",
@@ -199,7 +206,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: MarketingWebsite,
     source_code_link: "https://github.com/",
   },
   {
