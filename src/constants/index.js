@@ -210,25 +210,21 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Infrastructre as Code",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Terraform configuration scripts to deploy a sample AWS infrastructure, including a Virtual Private Cloud (VPC), EC2 instances, RDS database instances, and associated networking components.",
     tags: [
       {
-        name: "nextjs",
+        name: "Terraform",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "AWS",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/dejodammy/TerraForm-Networking",
   },
 ];
 
