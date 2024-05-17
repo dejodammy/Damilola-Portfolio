@@ -126,7 +126,20 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Intern Developer",
+    title: "Software Developer Intern",
+    company_name: "Code Concepts UK",
+    iconBg: "#ffffff",
+    icon: shopify,
+    date: "July 2022 - September 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
     company_name: "Uridium",
     icon: uridium,
     iconBg: "#E6DEDD",
@@ -198,7 +211,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
@@ -213,6 +226,57 @@ const projects = [
     name: "Infrastructre as Code",
     description:
       "Terraform configuration scripts to deploy a sample AWS infrastructure, including a Virtual Private Cloud (VPC), EC2 instances, RDS database instances, and associated networking components.",
+    tags: [
+      {
+        name: "Terraform",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/dejodammy/TerraForm-Networking",
+  },
+  {
+    name: "Infrastructre as Code",
+    description:
+      "Terraform configuration scripts to deploy a sample AWS infrastructure, including a Virtual Private Cloud (VPC), EC2 instances, RDS database instances, and associated networking components.",
+    tags: [
+      {
+        name: "Terraform",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/dejodammy/TerraForm-Networking",
+  },
+  {
+    name: "Infrastructre as Code",
+    description:
+      "Terraform configuration scripts to deploy a sample AWS infrastructure, including a Virtual Private Cloud (VPC), EC2 instances, RDS database instances, and associated networking components.",
+    tags: [
+      {
+        name: "Terraform",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/dejodammy/TerraForm-Networking",
+  },
+  {
+    name: "Infrastructre as Code",
+    description:
+      "Terraform configuration scripts to deploy a sample AWS infrastructure, including a Virtual Private Cloud (VPC), EC2 instances, RDS database instances, and associated networking components.                                                                                                                               ",
     tags: [
       {
         name: "Terraform",
