@@ -1,3 +1,9 @@
+import React from "react";
+
+import { BallCanvas } from "./canvas";
+import { SectionWrapper } from "../hoc";
+import { technologies } from "../constants";
+
 const Tech = () => {
   const isMobile = window.matchMedia("(max-width: 500px)").matches;
   const Map = (isMobile ,technologies)=>{
@@ -28,3 +34,5 @@ const Tech = () => {
     </>
   );
 };
+
+export default SectionWrapper(Tech, "");
