@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software developer with a background in Solidity, Java, React,
+        I am a software developer with a background in Solidity, Java, React,
         JavaScript, and Python. While I'm new to cloud computing, I have
         hands-on experience with these languages and frameworks. I'm eager to
         expand my skills and collaborate with you to build practical and
